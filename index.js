@@ -1,6 +1,6 @@
-let display = document.getElementById('display');
+const display = document.querySelector('#display');
 
-let buttons = Array.from(document.getElementsByClassName('button'));
+const buttons = Array.from(document.querySelectorAll('.button'));
 
 buttons.map( button => {
     button.addEventListener('click', (e) => {
